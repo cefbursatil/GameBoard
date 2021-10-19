@@ -15,11 +15,11 @@ E:/Unity projects/GAME CODER
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64822
+54387
 Successfully changed project path to: E:/Unity projects/GAME CODER
 E:/Unity projects/GAME CODER
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 123.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 77.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path E:/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001232 seconds.
+Registered in 0.000943 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
+- Completed reload, in  1.828 seconds
 Domain Reload Profiling:
-	ReloadAssembly (851ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (1828ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (399ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (152ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (159ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
+				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004257 seconds.
+Registered in 0.007455 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.130 seconds
+- Completed reload, in  1.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1131ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (918ms)
-			LoadAssemblies (101ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
+			SetupTypeCache (280ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (364ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (219ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1947 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.4 MB.
-System memory in use after: 80.5 MB.
+Unloading 1950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 80.5 MB.
+System memory in use after: 80.6 MB.
 
-Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 5.090300 ms (FindLiveObjects: 0.168800 ms CreateObjectMapping: 0.069700 ms MarkObjects: 4.753600 ms  DeleteObjects: 0.096700 ms)
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 4.557200 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.085800 ms MarkObjects: 4.186900 ms  DeleteObjects: 0.087600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,1200 +131,1217 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/MyGameExample.unity
-  artifactKey: Guid(c27a7ff1308db7645b1650e083a3954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MyGameExample.unity using Guid(c27a7ff1308db7645b1650e083a3954c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defcd163bf3c79b74c47003864c6b3d3') in 0.013215 seconds 
-  Import took 0.016058 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.067722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.841 seconds
-Domain Reload Profiling:
-	ReloadAssembly (8095ms)
-		BeginReloadAssembly (4806ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (1121ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2072ms)
-		EndReloadAssembly (2906ms)
-			LoadAssemblies (673ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (839ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (1138ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (212ms)
-				ProcessInitializeOnLoadAttributes (809ms)
-				ProcessInitializeOnLoadMethodAttributes (65ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.4 MB.
-System memory in use after: 80.4 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2354.
-Total: 33.289300 ms (FindLiveObjects: 0.545000 ms CreateObjectMapping: 0.150600 ms MarkObjects: 32.420600 ms  DeleteObjects: 0.170100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 3047.841475 seconds.
-  path: Assets/Scripts/EnemyController.cs
-  artifactKey: Guid(89811daf7f237e6449a9dc1543166094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyController.cs using Guid(89811daf7f237e6449a9dc1543166094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66697d1cc41c76fae9ecc974de6644b4') in 0.705220 seconds 
-  Import took 0.718220 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008543 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.789 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2790ms)
-		BeginReloadAssembly (556ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (352ms)
-		EndReloadAssembly (2150ms)
-			LoadAssemblies (281ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (571ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (122ms)
-			SetupLoadedEditorAssemblies (857ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (210ms)
-				ProcessInitializeOnLoadAttributes (539ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1942 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.4 MB.
-System memory in use after: 80.5 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 30.692800 ms (FindLiveObjects: 0.626100 ms CreateObjectMapping: 0.341000 ms MarkObjects: 29.518100 ms  DeleteObjects: 0.204900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1160.556791 seconds.
-  path: Assets/Scripts/SwordController.cs
-  artifactKey: Guid(9619146cec5eddf49bf1d0a5b325f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SwordController.cs using Guid(9619146cec5eddf49bf1d0a5b325f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319fdc645562e301f72eea0dd98bf1d8') in 0.089584 seconds 
-  Import took 0.092680 seconds .
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets Contents.unity
+  artifactKey: Guid(28749308af3d2644a943180132197b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets Contents.unity using Guid(28749308af3d2644a943180132197b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cfad4cc8da188893a3f560a2d4c3677') in 0.010068 seconds 
+  Import took 0.013524 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008936 seconds.
-  path: Assets/Scripts/SwordController.cs
-  artifactKey: Guid(9619146cec5eddf49bf1d0a5b325f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SwordController.cs using Guid(9619146cec5eddf49bf1d0a5b325f30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319fdc645562e301f72eea0dd98bf1d8') in 0.027516 seconds 
-  Import took 0.030279 seconds .
+  Time since last request: 48.915310 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets Sample.unity
+  artifactKey: Guid(7df1b017ffef97648a3c093bf99f29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets Sample.unity using Guid(7df1b017ffef97648a3c093bf99f29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d318b682c5b420195f6e12595ddfc0') in 0.002020 seconds 
+  Import took 0.004604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008486 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets Sample.unity
+  artifactKey: Guid(7df1b017ffef97648a3c093bf99f29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets Sample.unity using Guid(7df1b017ffef97648a3c093bf99f29df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d318b682c5b420195f6e12595ddfc0') in 0.001320 seconds 
+  Import took 0.003990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.990083 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets ContentsSettings.lighting
+  artifactKey: Guid(388d17b17a2fd644fb09ef1a8faa408e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Scenes/FlatPoly Board Game Assets ContentsSettings.lighting using Guid(388d17b17a2fd644fb09ef1a8faa408e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '7c759158b7fd992863a28c3ea4e025cf') in 0.048547 seconds 
+  Import took 0.051458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.808990 seconds.
+  path: Assets/Zololgo/OrbitZoomPanCamera/Scripts
+  artifactKey: Guid(3069c331de63e48458ae922a8cc2ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/OrbitZoomPanCamera/Scripts using Guid(3069c331de63e48458ae922a8cc2ade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3780a3f230d37c2da3fc045a409a6438') in 0.001682 seconds 
+  Import took 0.004784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.366902 seconds.
+  path: Assets/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs
+  artifactKey: Guid(d5a4031fc080d764798d114211234419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs using Guid(d5a4031fc080d764798d114211234419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc8797345161c19f2d00a6a7782a4aa') in 0.020103 seconds 
+  Import took 0.022723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010273 seconds.
+  path: Assets/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs
+  artifactKey: Guid(d5a4031fc080d764798d114211234419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs using Guid(d5a4031fc080d764798d114211234419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc8797345161c19f2d00a6a7782a4aa') in 0.001252 seconds 
+  Import took 0.004410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.107695 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Textures/ground.png
+  artifactKey: Guid(0327002d8ed42c449bf99d72ee6f0ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Textures/ground.png using Guid(0327002d8ed42c449bf99d72ee6f0ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e99574d2f370249c756c9805b09fa81') in 0.156259 seconds 
+  Import took 0.159005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.014795 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Post Processing Profiles/FlatPoly Board Game Assets.asset
+  artifactKey: Guid(87388beb9914c9b42a9a4fafb0365290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Post Processing Profiles/FlatPoly Board Game Assets.asset using Guid(87388beb9914c9b42a9a4fafb0365290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da30b9d636d6d752ed2998dd8fda6c80') in 0.003893 seconds 
+  Import took 0.006982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.973316 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Models/board_game_assets.obj
+  artifactKey: Guid(87b751928235ced49a4a5bee39a873cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Models/board_game_assets.obj using Guid(87b751928235ced49a4a5bee39a873cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7d8cdac41291dda56a2f2fe9ec3335') in 1.098627 seconds 
+  Import took 1.102562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.300469 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Materials/Board Game Pieces.mat
+  artifactKey: Guid(e4684a765ffa43d4caa4ec942f89f91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Materials/Board Game Pieces.mat using Guid(e4684a765ffa43d4caa4ec942f89f91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5a7cfadb2e700a4e84d75aba7b6a8c') in 0.130382 seconds 
+  Import took 0.135172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Materials/Ground coral.mat
+  artifactKey: Guid(99ed25e37154c9942aa0ca5fea6525f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Materials/Ground coral.mat using Guid(99ed25e37154c9942aa0ca5fea6525f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7e977305f842e0de3d5634ed3c3254') in 0.044674 seconds 
+  Import took 0.050330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Materials/Ground grey.mat
+  artifactKey: Guid(487b7a403a4dc194c82cb2822edf07a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Materials/Ground grey.mat using Guid(487b7a403a4dc194c82cb2822edf07a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f162c57837c3c83681a60e326a486021') in 0.017316 seconds 
+  Import took 0.022090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.649199 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice
+  artifactKey: Guid(cddd628f61ebaf949879710ae40d825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice using Guid(cddd628f61ebaf949879710ae40d825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3e0bfaf20833afc29365dec717918e') in 0.001744 seconds 
+  Import took 0.005263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017183 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice
+  artifactKey: Guid(cddd628f61ebaf949879710ae40d825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice using Guid(cddd628f61ebaf949879710ae40d825a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3e0bfaf20833afc29365dec717918e') in 0.001589 seconds 
+  Import took 0.005967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062866 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_black.prefab
+  artifactKey: Guid(282a9bdc905450341bacf34183a627b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_black.prefab using Guid(282a9bdc905450341bacf34183a627b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3413f12927a371726f37b7d44075ce8d') in 0.011350 seconds 
+  Import took 0.015008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_blue.prefab
+  artifactKey: Guid(9faf1483119f9814b9c0cca3b88b4c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_blue.prefab using Guid(9faf1483119f9814b9c0cca3b88b4c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1586750b65ae359159b1d5016b75f78') in 0.007777 seconds 
+  Import took 0.011102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_yellow.prefab
+  artifactKey: Guid(d167c16b0447de94c940657ffd7933f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_yellow.prefab using Guid(d167c16b0447de94c940657ffd7933f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a656e2643261419f83c4ab712937c8') in 0.024343 seconds 
+  Import took 0.028940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_cyan.prefab
+  artifactKey: Guid(ff7c450e2b3932642b0446228a26eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_cyan.prefab using Guid(ff7c450e2b3932642b0446228a26eb77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7083c242b97f093567abdf3bfbe7df51') in 0.014385 seconds 
+  Import took 0.020673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_grey.prefab
+  artifactKey: Guid(20575961553d879428d2a814365ea253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_grey.prefab using Guid(20575961553d879428d2a814365ea253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98f01ce0e2c9a6af5c04ff01b9d0c39') in 0.013946 seconds 
+  Import took 0.018033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_white.prefab
+  artifactKey: Guid(29161880b0c72c848a5ea5f7d2cf423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_white.prefab using Guid(29161880b0c72c848a5ea5f7d2cf423f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecd78345ba38d5de7a09d4597174c67') in 0.011161 seconds 
+  Import took 0.014986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_green.prefab
+  artifactKey: Guid(2cc2683cbf15c59438a4f96d30792c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_green.prefab using Guid(2cc2683cbf15c59438a4f96d30792c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c81f4e72ec386ba1284e86666563de') in 0.015394 seconds 
+  Import took 0.019980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_red.prefab
+  artifactKey: Guid(7a4603d3eb9b711468c8bfc634025f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_red.prefab using Guid(7a4603d3eb9b711468c8bfc634025f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db655f3ac5080c543f22eff00235928e') in 0.011198 seconds 
+  Import took 0.015619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_purple.prefab
+  artifactKey: Guid(fe246b21d183cb248a98f41b12a4b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Dice/dice_d6_purple.prefab using Guid(fe246b21d183cb248a98f41b12a4b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c7c9f27ba078a3a7f9cd39146e2cd2') in 0.008710 seconds 
+  Import took 0.013685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.424952 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_black.prefab
+  artifactKey: Guid(da11a1c7a237f0040b9430e63b02b6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_black.prefab using Guid(da11a1c7a237f0040b9430e63b02b6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3977873df5189c4b9fd92c1db2676ec') in 0.007552 seconds 
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_blue.prefab
+  artifactKey: Guid(a4fdbe1837883dd4c9acc14fdb4733ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_blue.prefab using Guid(a4fdbe1837883dd4c9acc14fdb4733ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fdce4a4951041c7aaba7419f032f58') in 0.008196 seconds 
+  Import took 0.011454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_red.prefab
+  artifactKey: Guid(20b7198834f65f24e97eaebfbd2e544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_red.prefab using Guid(20b7198834f65f24e97eaebfbd2e544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bd82587cb1986e1cc29b056a3315c0') in 0.012454 seconds 
+  Import took 0.016093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_green.prefab
+  artifactKey: Guid(767276d0ec6930a4793e11d5f0cf1174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_green.prefab using Guid(767276d0ec6930a4793e11d5f0cf1174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b177b4d08b56bbb9674bd1724dd314c') in 0.009893 seconds 
+  Import took 0.014480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_cyan.prefab
+  artifactKey: Guid(e0dc20154c74b884d841d9aa18737190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_cyan.prefab using Guid(e0dc20154c74b884d841d9aa18737190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f487b2a1accf447a7cb429ed919a0b') in 0.011265 seconds 
+  Import took 0.015241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_blue.prefab
+  artifactKey: Guid(3460926554974624583d603a5ed11b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_blue.prefab using Guid(3460926554974624583d603a5ed11b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd878863b92b34bcb0a1a35eb240a6df9') in 0.010873 seconds 
+  Import took 0.014742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_green.prefab
+  artifactKey: Guid(f99a648190f79c04a82027137de3e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_green.prefab using Guid(f99a648190f79c04a82027137de3e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c347564c45814fd680421bc93e8b95') in 0.011390 seconds 
+  Import took 0.014804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_blue.prefab
+  artifactKey: Guid(ddf08067baaa0e14ba55ce7828a12324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_blue.prefab using Guid(ddf08067baaa0e14ba55ce7828a12324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17274f7d5e0a06fec4acbe284adf6ac') in 0.015600 seconds 
+  Import took 0.019367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_purple.prefab
+  artifactKey: Guid(1357b148e49e8ef4cb72b5c3846193ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_purple.prefab using Guid(1357b148e49e8ef4cb72b5c3846193ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc89b0898e917b9f7834e8f0f764f60') in 0.013088 seconds 
+  Import took 0.016554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_green.prefab
+  artifactKey: Guid(4c4733284e9152f43b3de94a5da0586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_green.prefab using Guid(4c4733284e9152f43b3de94a5da0586f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1623a39400d9dc37fd6cb2d79606bbb') in 0.009111 seconds 
+  Import took 0.011943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_yellow.prefab
+  artifactKey: Guid(8e324db3e49fd234cb482e0a0015b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_yellow.prefab using Guid(8e324db3e49fd234cb482e0a0015b49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d1e35ef324b52ed3ed8c56cb013bdc') in 0.007548 seconds 
+  Import took 0.011123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_red.prefab
+  artifactKey: Guid(8a64fde450e6dab418fee160c4c75050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_red.prefab using Guid(8a64fde450e6dab418fee160c4c75050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc5266e206a818b958a25f88793085e') in 0.008000 seconds 
+  Import took 0.011511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_black.prefab
+  artifactKey: Guid(42bc7d3be9a45534183d6ceb55be1cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_black.prefab using Guid(42bc7d3be9a45534183d6ceb55be1cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919959862dd5edbfb30b9194057eb492') in 0.023277 seconds 
+  Import took 0.027651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_purple.prefab
+  artifactKey: Guid(9bab460ad1df90f468296e0e8198a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_purple.prefab using Guid(9bab460ad1df90f468296e0e8198a6c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc8b14397920a6b759b334bdb57586b') in 0.009558 seconds 
+  Import took 0.012835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_black.prefab
+  artifactKey: Guid(3362c2ac3e9f85c418e73df16c1c8b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_black.prefab using Guid(3362c2ac3e9f85c418e73df16c1c8b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98f93e6f6eddfe09969002838f706e6') in 0.034754 seconds 
+  Import took 0.038150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_white.prefab
+  artifactKey: Guid(46d5ff6818c077444a1f1d1fb415c2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_white.prefab using Guid(46d5ff6818c077444a1f1d1fb415c2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a82498a0d8f64ae162b75e113393e83') in 0.007776 seconds 
+  Import took 0.011127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_yellow.prefab
+  artifactKey: Guid(6c02827ad570d154baca6114cca4c368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_yellow.prefab using Guid(6c02827ad570d154baca6114cca4c368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa375057c3d1b69dd96ab24beaf49a8') in 0.007249 seconds 
+  Import took 0.010386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_grey.prefab
+  artifactKey: Guid(d9f10b8395fc92c4ea8b22d385d5312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_grey.prefab using Guid(d9f10b8395fc92c4ea8b22d385d5312a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a5f5d62d564dc60310fba6ec62a020') in 0.007513 seconds 
+  Import took 0.012046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_red.prefab
+  artifactKey: Guid(b788486f0267c054bb3812d57dc8e352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_red.prefab using Guid(b788486f0267c054bb3812d57dc8e352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc66b558c523cb5212c6685950a521e') in 0.008918 seconds 
+  Import took 0.012858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_white.prefab
+  artifactKey: Guid(d513be139e6ce2c4ca2927eefc1d770d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_A_white.prefab using Guid(d513be139e6ce2c4ca2927eefc1d770d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f849b4a559b203a0db5aa00fa7f562') in 0.007496 seconds 
+  Import took 0.011260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_grey.prefab
+  artifactKey: Guid(d5f1a18026da8994193461435dc0f88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_grey.prefab using Guid(d5f1a18026da8994193461435dc0f88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09041a029b85372fd69f16d13ca8f98d') in 0.006894 seconds 
+  Import took 0.010688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_grey.prefab
+  artifactKey: Guid(3cfa53567f86d39468a09b24ebfd30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_grey.prefab using Guid(3cfa53567f86d39468a09b24ebfd30c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2509f5f860a3f963d934f96bee4d4fe8') in 0.009623 seconds 
+  Import took 0.013953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_yellow.prefab
+  artifactKey: Guid(43e85bde9c957b348b1142b1e223656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_yellow.prefab using Guid(43e85bde9c957b348b1142b1e223656a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0385322b28e61a247bce08713927bbe') in 0.008513 seconds 
+  Import took 0.012631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_cyan.prefab
+  artifactKey: Guid(347e11ceab6449846b31572c91ce4136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_cyan.prefab using Guid(347e11ceab6449846b31572c91ce4136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd415d1449ec2915181e71d6715e51d2c') in 0.008153 seconds 
+  Import took 0.011527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001070 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_white.prefab
+  artifactKey: Guid(913c2de0e995afa44a0a3a3ed3f4daf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_B_white.prefab using Guid(913c2de0e995afa44a0a3a3ed3f4daf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7442fdcdc63a086b68615c6e55d11428') in 0.009943 seconds 
+  Import took 0.014154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_cyan.prefab
+  artifactKey: Guid(777f37ec1c1d2ee45aa497f4794fe3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_cyan.prefab using Guid(777f37ec1c1d2ee45aa497f4794fe3c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b635e2a748c696218d9fedd65bc01b45') in 0.007300 seconds 
+  Import took 0.010161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_purple.prefab
+  artifactKey: Guid(c35675cc6836f5c48b1aa31422e99b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Markers/marker_C_purple.prefab using Guid(c35675cc6836f5c48b1aa31422e99b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92982069fba1262029bf28383958b28') in 0.008943 seconds 
+  Import took 0.012877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.501843 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_dirt_big.prefab
+  artifactKey: Guid(51900ed1b75a6de4390c4f3d6539c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_dirt_big.prefab using Guid(51900ed1b75a6de4390c4f3d6539c865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a13fbc7d5f86c514bac250f2e3e8ac') in 0.007198 seconds 
+  Import took 0.010117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_ice_small.prefab
+  artifactKey: Guid(21a4210a2937e5d45898f77c557fca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_ice_small.prefab using Guid(21a4210a2937e5d45898f77c557fca15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7164317346c790a59738edc6fd066f0d') in 0.007414 seconds 
+  Import took 0.010210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_water_big.prefab
+  artifactKey: Guid(b7502065a00ac574ea1eb2671f26f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_water_big.prefab using Guid(b7502065a00ac574ea1eb2671f26f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeb2b28c8a75a5090f9721b0b49b514') in 0.008738 seconds 
+  Import took 0.013152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_grass_small.prefab
+  artifactKey: Guid(45f6acd6d6bb2ab4589de394460fa119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_grass_small.prefab using Guid(45f6acd6d6bb2ab4589de394460fa119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8290eb023292011767f78db3efd5bbd6') in 0.007052 seconds 
+  Import took 0.010760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_stone_small.prefab
+  artifactKey: Guid(8e87ae1573bcfe44f88db63a054f8404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_stone_small.prefab using Guid(8e87ae1573bcfe44f88db63a054f8404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee2c42df1d304e50298eef46f431bd2') in 0.026212 seconds 
+  Import took 0.029972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_dirt_small.prefab
+  artifactKey: Guid(2358c3762fc173243a68e33bf316b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_dirt_small.prefab using Guid(2358c3762fc173243a68e33bf316b11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d8cbc72b0ebcb8f350366c6b4b2b6') in 0.006981 seconds 
+  Import took 0.010514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_water_small.prefab
+  artifactKey: Guid(866970ddde7221f479e17d1eb904aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_water_small.prefab using Guid(866970ddde7221f479e17d1eb904aff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5ab102d20fda7215fd60b208ab9833') in 0.007758 seconds 
+  Import took 0.012299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sandstone_small.prefab
+  artifactKey: Guid(5ac93d0efee518e4e81944e524498ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sandstone_small.prefab using Guid(5ac93d0efee518e4e81944e524498ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72936e860b824dfb2e128f2c8e3f542b') in 0.007900 seconds 
+  Import took 0.012270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_stone_big.prefab
+  artifactKey: Guid(98b846f104e608e47a34068a2863e96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_stone_big.prefab using Guid(98b846f104e608e47a34068a2863e96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75ead21297da20d0fdb0260c473785f') in 0.008430 seconds 
+  Import took 0.011758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sand_small.prefab
+  artifactKey: Guid(f31a90b6f16e28c40a5c1357da0755be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sand_small.prefab using Guid(f31a90b6f16e28c40a5c1357da0755be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f1172f96fc3dfef8e064105e1d55be') in 0.006658 seconds 
+  Import took 0.009886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sand_big.prefab
+  artifactKey: Guid(cc417a3e7a10ed448a18d331f1d7de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sand_big.prefab using Guid(cc417a3e7a10ed448a18d331f1d7de04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4008b03e7350f71754e997bcb18f127e') in 0.007735 seconds 
+  Import took 0.010595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_ice_big.prefab
+  artifactKey: Guid(6839a896c58d42d4583f2d091d1c30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_ice_big.prefab using Guid(6839a896c58d42d4583f2d091d1c30ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2210d3a063e7dd9188f437c67071e63f') in 0.007583 seconds 
+  Import took 0.010693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_grass_big.prefab
+  artifactKey: Guid(61132ddd6da125a409c777638560ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_grass_big.prefab using Guid(61132ddd6da125a409c777638560ce6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4600d10172754b2ba3f0b1bcf3745e30') in 0.007464 seconds 
+  Import took 0.010460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sandstone_big.prefab
+  artifactKey: Guid(308d6d30857d41a4194a5b8a705970e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Mats/mat_sandstone_big.prefab using Guid(308d6d30857d41a4194a5b8a705970e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1141eb71207a67aae5ab6b6a20c5d666') in 0.007873 seconds 
+  Import took 0.012016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.300138 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_black.prefab
+  artifactKey: Guid(28d0a86eca4bc5e4c925e8d6442a94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_black.prefab using Guid(28d0a86eca4bc5e4c925e8d6442a94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e225db6c1fafcb14fa23bebeef995b') in 0.007289 seconds 
+  Import took 0.011047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_cyan.prefab
+  artifactKey: Guid(14ae44727bfa3404bb170b1ee04ae14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_cyan.prefab using Guid(14ae44727bfa3404bb170b1ee04ae14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c67f3aae4ad30777d5e9fde89c9a3d6') in 0.006685 seconds 
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_rect_black.prefab
+  artifactKey: Guid(62cde4c217e6e6c4d82d22ca2902bfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_rect_black.prefab using Guid(62cde4c217e6e6c4d82d22ca2902bfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dd373b411bec19cac0a8aa6e11008f') in 0.010401 seconds 
+  Import took 0.013761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_brown.prefab
+  artifactKey: Guid(da6bcf73bb67c904bb40f0c943fc2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_brown.prefab using Guid(da6bcf73bb67c904bb40f0c943fc2689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ed49ab2c9580f612c24ffce1b6eefe') in 0.007841 seconds 
+  Import took 0.011028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_brown.prefab
+  artifactKey: Guid(dae8cf0817ba3d84b9ff6c7dee3ced1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_brown.prefab using Guid(dae8cf0817ba3d84b9ff6c7dee3ced1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dfc625ec883f0036bedbbdc603c3d5') in 0.014382 seconds 
+  Import took 0.017655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_yellow.prefab
+  artifactKey: Guid(ea9a6214209ce654f9024524916fa320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_yellow.prefab using Guid(ea9a6214209ce654f9024524916fa320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c13731bd62e7b4e7deec519f48a5d8c') in 0.007210 seconds 
+  Import took 0.011499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_grey.prefab
+  artifactKey: Guid(f5831c8d1c287434a9f5f8ef352e136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_grey.prefab using Guid(f5831c8d1c287434a9f5f8ef352e136a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '421ef711c036cdeecc5b92eab539e735') in 0.007462 seconds 
+  Import took 0.010861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_white.prefab
+  artifactKey: Guid(8564b620cad6a7d46a3a2588c5526e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_white.prefab using Guid(8564b620cad6a7d46a3a2588c5526e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a4576ad52c7eb3a1017c1abe4a03d9') in 0.008293 seconds 
+  Import took 0.011903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_blue.prefab
+  artifactKey: Guid(0b94809c58bc4d94e8c73cad6f470371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_blue.prefab using Guid(0b94809c58bc4d94e8c73cad6f470371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5bb7900d4ed0d664dc336c6fed6cb37') in 0.009135 seconds 
+  Import took 0.012925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_purple.prefab
+  artifactKey: Guid(2ce84d6134e69e4438656f00fc5b6b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_purple.prefab using Guid(2ce84d6134e69e4438656f00fc5b6b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aba14711f02ed0789098a5877bb72e') in 0.009327 seconds 
+  Import took 0.012578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_grey.prefab
+  artifactKey: Guid(f855bdaaac920df408516a2a8b5ba3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_grey.prefab using Guid(f855bdaaac920df408516a2a8b5ba3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e6d23af42eb3372f7bdc0f0be35d78') in 0.008517 seconds 
+  Import took 0.011493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_green.prefab
+  artifactKey: Guid(10dd67657f488f040ac8d5ce22add185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_green.prefab using Guid(10dd67657f488f040ac8d5ce22add185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af65ad45f4582cb98c47f26c5b4e53fc') in 0.008292 seconds 
+  Import took 0.011405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_red.prefab
+  artifactKey: Guid(e50790d4f4c9fa8458f65a940a73188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_red.prefab using Guid(e50790d4f4c9fa8458f65a940a73188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35d9fc0e018b411a8e30eaf01350e84') in 0.007965 seconds 
+  Import took 0.011576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_cyan.prefab
+  artifactKey: Guid(fb94c8faf262ffd4fb872a6bb205b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_cyan.prefab using Guid(fb94c8faf262ffd4fb872a6bb205b77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05097094d141ed2aea67b827c2c65013') in 0.007437 seconds 
+  Import took 0.010480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_green.prefab
+  artifactKey: Guid(40cad2c64a17589408c944c7501c06ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_green.prefab using Guid(40cad2c64a17589408c944c7501c06ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acc2f5f8028ffb3800b246471f537e8') in 0.008270 seconds 
+  Import took 0.011595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_red.prefab
+  artifactKey: Guid(69a258506b816d44c9341543cfd6dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_red.prefab using Guid(69a258506b816d44c9341543cfd6dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c019620b27f173780b41adaebb33a6') in 0.010466 seconds 
+  Import took 0.014319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_purple.prefab
+  artifactKey: Guid(44cd1ed9f9cd1914088a969a4e59b367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_circle_purple.prefab using Guid(44cd1ed9f9cd1914088a969a4e59b367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab121b7b611e2d1bacd641355586c52c') in 0.009467 seconds 
+  Import took 0.013596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_white.prefab
+  artifactKey: Guid(98e34e0e6d13ced45863790a32a93a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_white.prefab using Guid(98e34e0e6d13ced45863790a32a93a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b465e650f273f65024f41206b6ceef2') in 0.008230 seconds 
+  Import took 0.011037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_black.prefab
+  artifactKey: Guid(641c2f236a501f3428f2b0e3ffb99bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_black.prefab using Guid(641c2f236a501f3428f2b0e3ffb99bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bbe2f00c7dac4e762bddcc5433153c') in 0.007595 seconds 
+  Import took 0.011067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_rect_brown.prefab
+  artifactKey: Guid(7bb2f62ada60bc04eaf420dfb30851bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_rect_brown.prefab using Guid(7bb2f62ada60bc04eaf420dfb30851bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776aa5e4ecc199ef03db34a78776b9f2') in 0.013070 seconds 
+  Import took 0.016395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_blue.prefab
+  artifactKey: Guid(e3efa299cf0ce9f41aa1f7aee1a90de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_blue.prefab using Guid(e3efa299cf0ce9f41aa1f7aee1a90de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba93f5db63bc7edf0303ae9e37afd46') in 0.011267 seconds 
+  Import took 0.014333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_rect_blue.prefab
+  artifactKey: Guid(aee5333d95634824abd2f63207ce2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_rect_blue.prefab using Guid(aee5333d95634824abd2f63207ce2f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74314c6eed1dfac30f867a85cc906cb') in 0.007512 seconds 
+  Import took 0.010153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_yellow.prefab
+  artifactKey: Guid(26fe4b0b4e77d6043a1ff8b0ae0c8192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Spaces/space_hex_yellow.prefab using Guid(26fe4b0b4e77d6043a1ff8b0ae0c8192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2691b8d68ae58ad7b7e0908e408a10a') in 0.009909 seconds 
+  Import took 0.014509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.669217 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_black.prefab
+  artifactKey: Guid(1e60063820c800d4fb588629d3cde31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_black.prefab using Guid(1e60063820c800d4fb588629d3cde31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206912a92f7f185942c590c2ccb39eb5') in 0.007318 seconds 
+  Import took 0.010746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_purple.prefab
+  artifactKey: Guid(48d6690bf783e964182c7a6afdc74764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_purple.prefab using Guid(48d6690bf783e964182c7a6afdc74764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763f1e77e5b7b81dcfb43c44a72d352f') in 0.010437 seconds 
+  Import took 0.013844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_green.prefab
+  artifactKey: Guid(aaae57bbec5b8e74eaf0dbaca166a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_green.prefab using Guid(aaae57bbec5b8e74eaf0dbaca166a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d2e89cfb615ee9e8916b3c075d57bf') in 0.009125 seconds 
+  Import took 0.013015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_grey.prefab
+  artifactKey: Guid(30b3305936a99924995047235df9a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_grey.prefab using Guid(30b3305936a99924995047235df9a3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df9362ef9e02d3c740a48c657d56573') in 0.012578 seconds 
+  Import took 0.016721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_yellow.prefab
+  artifactKey: Guid(c8021217b6b0d164cb8070336233b4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_yellow.prefab using Guid(c8021217b6b0d164cb8070336233b4d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d3e1c639c613cd6ccc4efca65e1ead') in 0.013198 seconds 
+  Import took 0.018329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_cyan.prefab
+  artifactKey: Guid(dcb960cad84abe54590df861697143cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_cyan.prefab using Guid(dcb960cad84abe54590df861697143cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d62e0279ca20a36496a5884fc39c01') in 0.015108 seconds 
+  Import took 0.019082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_red.prefab
+  artifactKey: Guid(8195a909a4fb8cd47aaf83edb6b3941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_red.prefab using Guid(8195a909a4fb8cd47aaf83edb6b3941f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa0f1189e4fea75cb112616b9d45abf') in 0.008468 seconds 
+  Import took 0.013151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_white.prefab
+  artifactKey: Guid(2c34f3d5ae5ac5f40b1a5246f34b88cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_white.prefab using Guid(2c34f3d5ae5ac5f40b1a5246f34b88cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42d636d93bd2b88c7c6d0df6535e71a') in 0.020878 seconds 
+  Import took 0.024624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_black.prefab
+  artifactKey: Guid(e98367579c6da9643962c7d8a082433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_black.prefab using Guid(e98367579c6da9643962c7d8a082433e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1129ed3d138fdf8ce0518636a78642f') in 0.009757 seconds 
+  Import took 0.014283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_black.prefab
+  artifactKey: Guid(9777daad46af61b42869bae99d65d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_black.prefab using Guid(9777daad46af61b42869bae99d65d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b2f83e550f9707b317673f0b5c5cae') in 0.009448 seconds 
+  Import took 0.014186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_blue.prefab
+  artifactKey: Guid(102277e2ba222204daa475212d4ad788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_blue.prefab using Guid(102277e2ba222204daa475212d4ad788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd58a4defdb333f77a5882461984a29') in 0.009463 seconds 
+  Import took 0.014666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_grey.prefab
+  artifactKey: Guid(ec59acc9b3045864bb3cceb53a720de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_grey.prefab using Guid(ec59acc9b3045864bb3cceb53a720de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b3204056214245cb5556d0d3630c7b') in 0.008172 seconds 
+  Import took 0.012968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_grey.prefab
+  artifactKey: Guid(cc3b7bb95abfeab409482ce2e0e1022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_grey.prefab using Guid(cc3b7bb95abfeab409482ce2e0e1022b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e60d78a66dbd7417259d23f9c3df9a') in 0.009046 seconds 
+  Import took 0.013338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_green.prefab
+  artifactKey: Guid(13e35219bf9dc4340910838e527702b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_green.prefab using Guid(13e35219bf9dc4340910838e527702b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab70972b266a7bc196264db41e9f1f2') in 0.009356 seconds 
+  Import took 0.013116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_cyan.prefab
+  artifactKey: Guid(a81662d71f74a35449e9bfc3ec29e29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_cyan.prefab using Guid(a81662d71f74a35449e9bfc3ec29e29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c79bf9033e06633d4899ab2e875ec7') in 0.007791 seconds 
+  Import took 0.010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_blue.prefab
+  artifactKey: Guid(f231a867faf95084a9ff786e771f2fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_blue.prefab using Guid(f231a867faf95084a9ff786e771f2fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5eba43eb4fcbd319907c09692c488a') in 0.008490 seconds 
+  Import took 0.011549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_blue.prefab
+  artifactKey: Guid(285b36fd7bddf8d4bb07598e935a78aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_blue.prefab using Guid(285b36fd7bddf8d4bb07598e935a78aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e346f895635d36d674a9774e9e3f4eb') in 0.007594 seconds 
+  Import took 0.010788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_yellow.prefab
+  artifactKey: Guid(279f442eae33dfc43b2a04e607614779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_yellow.prefab using Guid(279f442eae33dfc43b2a04e607614779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf85cb06b5d749bc0c06b0bfac472f3') in 0.007676 seconds 
+  Import took 0.011336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_red.prefab
+  artifactKey: Guid(052375151bff86e45b74e3f039a32d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_red.prefab using Guid(052375151bff86e45b74e3f039a32d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a42eb0d979684a4d7fa2fc40d27c62') in 0.009730 seconds 
+  Import took 0.013256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_white.prefab
+  artifactKey: Guid(615fafa7145f2144f96f1ffd3b3be21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_white.prefab using Guid(615fafa7145f2144f96f1ffd3b3be21d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e663cb27393c3f6daf6fc1ce414ab11') in 0.008091 seconds 
+  Import took 0.012173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_green.prefab
+  artifactKey: Guid(eea07d116299d464a9e23ad63351ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_green.prefab using Guid(eea07d116299d464a9e23ad63351ac83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5169efbf235b3ffb830fa86ed2fd419') in 0.011500 seconds 
+  Import took 0.014639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_cyan.prefab
+  artifactKey: Guid(56deb9754fc52f0408b0e19f4aa3f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_A_cyan.prefab using Guid(56deb9754fc52f0408b0e19f4aa3f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e16352325153ba3ffd55aef39e00d7') in 0.009493 seconds 
+  Import took 0.012594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_purple.prefab
+  artifactKey: Guid(b5ea55856f86e964799e2bb48309d64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_B_purple.prefab using Guid(b5ea55856f86e964799e2bb48309d64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403f7a25e17825c234011644ddd28a80') in 0.009675 seconds 
+  Import took 0.013124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.957612 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_black.prefab
+  artifactKey: Guid(9c24add8d3a75ae47a0d291bb3f1780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_black.prefab using Guid(9c24add8d3a75ae47a0d291bb3f1780f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcde05c4b68beb72831cc53b5759ff3') in 0.010641 seconds 
+  Import took 0.015144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_green.prefab
+  artifactKey: Guid(e0a66bda97db58b47a6b48ee37cec952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_green.prefab using Guid(e0a66bda97db58b47a6b48ee37cec952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5561f4276538b5eba1548d145f675e4') in 0.010624 seconds 
+  Import took 0.014977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_purple.prefab
+  artifactKey: Guid(449aa1e67fbd6714c860f7c7673fa83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_purple.prefab using Guid(449aa1e67fbd6714c860f7c7673fa83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b266f3820ad183e8a1395d240dc6f168') in 0.014786 seconds 
+  Import took 0.018476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_white.prefab
+  artifactKey: Guid(164ae14f0fad0b646b4d99b5815ff14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_white.prefab using Guid(164ae14f0fad0b646b4d99b5815ff14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17911d102a0d250841a74d31060ef188') in 0.007641 seconds 
+  Import took 0.011163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_red.prefab
+  artifactKey: Guid(f12fdf69933d8e14fb924536eac948cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_red.prefab using Guid(f12fdf69933d8e14fb924536eac948cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836ce26126a042bd7eee661fee816889') in 0.013204 seconds 
+  Import took 0.016868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_yellow.prefab
+  artifactKey: Guid(628a09ddfceb8994cae6658f97d7fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_yellow.prefab using Guid(628a09ddfceb8994cae6658f97d7fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e080c0ec441819d89d76a757a2fd16') in 0.006980 seconds 
+  Import took 0.010213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_black.prefab
+  artifactKey: Guid(2fdefc3fb37bb1344a9a50fbb68a858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_black.prefab using Guid(2fdefc3fb37bb1344a9a50fbb68a858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e3becb5903dc080f0dbebde58c344f') in 0.015296 seconds 
+  Import took 0.020430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_blue.prefab
+  artifactKey: Guid(842fbfe6edfad494daff8f7c17ff1132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_blue.prefab using Guid(842fbfe6edfad494daff8f7c17ff1132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d14a6ad84fbddb70acfd26019f62ca6') in 0.013696 seconds 
+  Import took 0.018332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_blue.prefab
+  artifactKey: Guid(6c7c48f11573f964cab668312ff0394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_blue.prefab using Guid(6c7c48f11573f964cab668312ff0394a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cde6ff202cd55434221f02f0766695') in 0.012278 seconds 
+  Import took 0.017162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_cyan.prefab
+  artifactKey: Guid(8c3d7713ed18824428a4e3b2ff15c99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_cyan.prefab using Guid(8c3d7713ed18824428a4e3b2ff15c99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ecbadab08af18610506e8e928289a9') in 0.014724 seconds 
+  Import took 0.018919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_grey.prefab
+  artifactKey: Guid(f5d374c0ef39ba24887658bfa53a0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_grey.prefab using Guid(f5d374c0ef39ba24887658bfa53a0477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82a8489b24b1e8d0aa10a9ec9cf0946') in 0.009873 seconds 
+  Import took 0.014256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_red.prefab
+  artifactKey: Guid(f888b0ac9edb99246bd2a58625c80853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_red.prefab using Guid(f888b0ac9edb99246bd2a58625c80853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9809a88530785b0f960d7c4bae024fd7') in 0.016715 seconds 
+  Import took 0.021477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_grey.prefab
+  artifactKey: Guid(3b9a42db49589864e9e1cf68ea0cd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_grey.prefab using Guid(3b9a42db49589864e9e1cf68ea0cd13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '736768597fe4815c166861dcfa86707e') in 0.010584 seconds 
+  Import took 0.015088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_white.prefab
+  artifactKey: Guid(5fed59a3e93480446ad1d5dc94ff8634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_white.prefab using Guid(5fed59a3e93480446ad1d5dc94ff8634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febbbd318a745213fbccb5569603ac99') in 0.011347 seconds 
+  Import took 0.015444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_yellow.prefab
+  artifactKey: Guid(4d80db0c4784b3848a93bfe025bf2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_yellow.prefab using Guid(4d80db0c4784b3848a93bfe025bf2699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6a28ff9ed3326f0ddbb7db17ef92ca') in 0.010791 seconds 
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_green.prefab
+  artifactKey: Guid(a61ea6810cc6d7b42a115bfdf044bee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_A_green.prefab using Guid(a61ea6810cc6d7b42a115bfdf044bee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef048d0d764d0af99794a3e65bd53f5') in 0.010318 seconds 
+  Import took 0.014557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_cyan.prefab
+  artifactKey: Guid(e8da719ae82188f4f9589a803d924090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_cyan.prefab using Guid(e8da719ae82188f4f9589a803d924090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ae681c54f2aed36c9b5dfbb4632ea8') in 0.016982 seconds 
+  Import took 0.021252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_purple.prefab
+  artifactKey: Guid(536a8f692306a9347a791b09f3300dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Meeples/Meeple_B_purple.prefab using Guid(536a8f692306a9347a791b09f3300dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85239957ef84cbd61a872e089df64f04') in 0.008914 seconds 
+  Import took 0.013323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.659995 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_purple.prefab
+  artifactKey: Guid(5b0715cd7f3ed034a9a1d23f14019652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_purple.prefab using Guid(5b0715cd7f3ed034a9a1d23f14019652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c24bbb19ffdb1608c95b8830270fdc') in 0.006632 seconds 
+  Import took 0.010016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_red.prefab
+  artifactKey: Guid(9c266d1c466f7ab49a7473bbee4cd807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_red.prefab using Guid(9c266d1c466f7ab49a7473bbee4cd807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82db9f5211e9384c131750c55d817673') in 0.007148 seconds 
+  Import took 0.009814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032927 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_white.prefab
+  artifactKey: Guid(9843f9f5f6c7b5b488a888983186a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_white.prefab using Guid(9843f9f5f6c7b5b488a888983186a1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e1d4fdb295528884d68e869e457d61') in 0.008414 seconds 
+  Import took 0.011484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_yellow.prefab
+  artifactKey: Guid(387e09754a087ab4bb638ccab3405fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_C_yellow.prefab using Guid(387e09754a087ab4bb638ccab3405fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c790a1767bb5445a6dd3392f2fbc3e12') in 0.008381 seconds 
+  Import took 0.011869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.231644 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_black.prefab
+  artifactKey: Guid(fd7767d6285efb74eaca8f978b2a7bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_black.prefab using Guid(fd7767d6285efb74eaca8f978b2a7bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23c6a90184824094d3ce765694ddf63') in 0.008839 seconds 
+  Import took 0.012256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_blue.prefab
+  artifactKey: Guid(7080e92fd135eef4580260045855890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_blue.prefab using Guid(7080e92fd135eef4580260045855890b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec89be52aac8272503dd3615cc8cb57a') in 0.006448 seconds 
+  Import took 0.009130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033953 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_cyan.prefab
+  artifactKey: Guid(ca17f4c7b77cd9748b40f7c698050c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_cyan.prefab using Guid(ca17f4c7b77cd9748b40f7c698050c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e13192cf53af39e91e828473fa7f396') in 0.009011 seconds 
+  Import took 0.013420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_purple.prefab
+  artifactKey: Guid(f31589cc542e2014392b426f76b3396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_purple.prefab using Guid(f31589cc542e2014392b426f76b3396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a304a129ca3807ff512d2f08b7828fc8') in 0.008287 seconds 
+  Import took 0.011586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_cyan.prefab
+  artifactKey: Guid(ca17f4c7b77cd9748b40f7c698050c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_cyan.prefab using Guid(ca17f4c7b77cd9748b40f7c698050c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e13192cf53af39e91e828473fa7f396') in 0.009281 seconds 
+  Import took 0.012783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_grey.prefab
+  artifactKey: Guid(1e68cdf33fb6e934a8f4c3b37fe3c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_grey.prefab using Guid(1e68cdf33fb6e934a8f4c3b37fe3c3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7414c56d69b96c2acd69c762d8bd4b19') in 0.008067 seconds 
+  Import took 0.011631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_green.prefab
+  artifactKey: Guid(da7605f621099bc42a9bd5f91d92aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_green.prefab using Guid(da7605f621099bc42a9bd5f91d92aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438e213c51543635baa0d9869843c680') in 0.008274 seconds 
+  Import took 0.011612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251329 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_red.prefab
+  artifactKey: Guid(637c8432c27ca7b45b307225e2c35d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_red.prefab using Guid(637c8432c27ca7b45b307225e2c35d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb3088ac84f9d05b77bc97f8ec04b67') in 0.007028 seconds 
+  Import took 0.010011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_white.prefab
+  artifactKey: Guid(dc53b23fba8c8f945869d9da83edb611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_white.prefab using Guid(dc53b23fba8c8f945869d9da83edb611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8bc42e9bd338ea6218e2f11ec9397f') in 0.007655 seconds 
+  Import took 0.010497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025777 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_yelow.prefab
+  artifactKey: Guid(3638f1a3ef68cd1489fc0f0004c95639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_yelow.prefab using Guid(3638f1a3ef68cd1489fc0f0004c95639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf791cf34d239c06f1dfd169e07bb532') in 0.010336 seconds 
+  Import took 0.013826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004139 seconds.
+  path: Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_yelow.prefab
+  artifactKey: Guid(3638f1a3ef68cd1489fc0f0004c95639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Board Game Assets/Prefabs/Pawns/pawn_D_yelow.prefab using Guid(3638f1a3ef68cd1489fc0f0004c95639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf791cf34d239c06f1dfd169e07bb532') in 0.008450 seconds 
+  Import took 0.011261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.060609 seconds.
+  path: Assets/Zololgo/FlatPoly Color Palettes/Textures
+  artifactKey: Guid(19b2d86ed56738e49ad4d84994b0098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Color Palettes/Textures using Guid(19b2d86ed56738e49ad4d84994b0098c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24656dad1ec5bb0d47bd3d2abeb2e971') in 0.001427 seconds 
+  Import took 0.004622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165001 seconds.
+  path: Assets/Zololgo/FlatPoly Color Palettes/Textures/FlatPoly Color Palette A.png
+  artifactKey: Guid(a2aeba915367ab54899bdc3263518ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Zololgo/FlatPoly Color Palettes/Textures/FlatPoly Color Palette A.png using Guid(a2aeba915367ab54899bdc3263518ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2444dc02c6cf22c5284c525c29dd7d') in 0.005015 seconds 
+  Import took 0.008352 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007834 seconds.
+Registered in 0.017988 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.669 seconds
+- Completed reload, in  3.300 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1669ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (3300ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (1471ms)
-			LoadAssemblies (192ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (267ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (890ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (228ms)
-				ProcessInitializeOnLoadAttributes (627ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.5 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2361.
-Total: 4.781100 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.079600 ms MarkObjects: 4.355500 ms  DeleteObjects: 0.060400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004313 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.353 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1353ms)
-		BeginReloadAssembly (223ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (94ms)
-		EndReloadAssembly (1080ms)
-			LoadAssemblies (363ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (202ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2364.
-Total: 4.399900 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.063900 ms MarkObjects: 4.118500 ms  DeleteObjects: 0.055700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004519 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.042 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1043ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (884ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (384ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2367.
-Total: 4.406400 ms (FindLiveObjects: 0.171800 ms CreateObjectMapping: 0.070900 ms MarkObjects: 4.107600 ms  DeleteObjects: 0.055100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004613 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.104 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1105ms)
-		BeginReloadAssembly (129ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (922ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2370.
-Total: 4.203800 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.059800 ms MarkObjects: 3.928200 ms  DeleteObjects: 0.055600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005249 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.140 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1141ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (938ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (322ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (361ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2373.
-Total: 5.109200 ms (FindLiveObjects: 0.374200 ms CreateObjectMapping: 0.159100 ms MarkObjects: 4.502300 ms  DeleteObjects: 0.072000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006284 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1185ms)
-		BeginReloadAssembly (150ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (968ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (390ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2376.
-Total: 5.583000 ms (FindLiveObjects: 0.226600 ms CreateObjectMapping: 0.066300 ms MarkObjects: 5.227500 ms  DeleteObjects: 0.061400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005607 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1120ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (937ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (314ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (378ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2379.
-Total: 5.676500 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.072700 ms MarkObjects: 5.351700 ms  DeleteObjects: 0.064400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005161 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1110ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (941ms)
-			LoadAssemblies (101ms)
+		EndReloadAssembly (3075ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (382ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2382.
-Total: 5.130900 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.132300 ms MarkObjects: 4.701400 ms  DeleteObjects: 0.055700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1127ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (961ms)
-			LoadAssemblies (135ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (387ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2385.
-Total: 6.540300 ms (FindLiveObjects: 0.252700 ms CreateObjectMapping: 0.120700 ms MarkObjects: 6.086400 ms  DeleteObjects: 0.078900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005035 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
-Domain Reload Profiling:
-	ReloadAssembly (981ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (35ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (780ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (298ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2388.
-Total: 5.544200 ms (FindLiveObjects: 0.171400 ms CreateObjectMapping: 0.068500 ms MarkObjects: 5.237600 ms  DeleteObjects: 0.065300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004565 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (104ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (145ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.5 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2391.
-Total: 4.530300 ms (FindLiveObjects: 0.166300 ms CreateObjectMapping: 0.070500 ms MarkObjects: 4.227000 ms  DeleteObjects: 0.065200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004745 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
-Domain Reload Profiling:
-	ReloadAssembly (951ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (808ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (307ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2394.
-Total: 5.447200 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.078600 ms MarkObjects: 5.085400 ms  DeleteObjects: 0.090700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004121 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1055ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (867ms)
-			LoadAssemblies (232ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (303ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.6 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2397.
-Total: 4.615200 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.074600 ms MarkObjects: 4.286000 ms  DeleteObjects: 0.075000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004614 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.049 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1050ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (288ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (330ms)
+			SetupLoadedEditorAssemblies (2487ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2400.
-Total: 6.407900 ms (FindLiveObjects: 0.250500 ms CreateObjectMapping: 0.197200 ms MarkObjects: 5.883600 ms  DeleteObjects: 0.075300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004639 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.900 seconds
-Domain Reload Profiling:
-	ReloadAssembly (900ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (762ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (327ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (215ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (2333ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2403.
-Total: 4.628100 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.076300 ms MarkObjects: 4.283600 ms  DeleteObjects: 0.062900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004429 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.082 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1082ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (921ms)
-			LoadAssemblies (126ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (423ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (291ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2406.
-Total: 4.290900 ms (FindLiveObjects: 0.183300 ms CreateObjectMapping: 0.084200 ms MarkObjects: 3.968600 ms  DeleteObjects: 0.053800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.188 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1188ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (945ms)
-			LoadAssemblies (158ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (372ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
+Unloading 1945 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
 
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2409.
-Total: 5.232300 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.072100 ms MarkObjects: 4.839400 ms  DeleteObjects: 0.060400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006569 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.267 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1268ms)
-		BeginReloadAssembly (212ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (997ms)
-			LoadAssemblies (131ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (333ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (385ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2412.
-Total: 5.234800 ms (FindLiveObjects: 0.328000 ms CreateObjectMapping: 0.113800 ms MarkObjects: 4.734500 ms  DeleteObjects: 0.057500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.176372 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 10.827 seconds
-Domain Reload Profiling:
-	ReloadAssembly (11005ms)
-		BeginReloadAssembly (7435ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (1127ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (3322ms)
-		EndReloadAssembly (3113ms)
-			LoadAssemblies (860ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (674ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (1424ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (385ms)
-				ProcessInitializeOnLoadAttributes (944ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1943 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 80.6 MB.
-System memory in use after: 80.7 MB.
-
-Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 2415.
-Total: 25.030500 ms (FindLiveObjects: 0.481400 ms CreateObjectMapping: 0.205500 ms MarkObjects: 24.210900 ms  DeleteObjects: 0.130100 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 4.251300 ms (FindLiveObjects: 0.178800 ms CreateObjectMapping: 0.070900 ms MarkObjects: 3.939800 ms  DeleteObjects: 0.060800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
