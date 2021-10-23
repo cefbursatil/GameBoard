@@ -17,7 +17,14 @@ public class CanonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            bulletPrefab.transform.localScale = bulletPrefab.transform.localScale * 2;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            bulletPrefab.transform.localScale = bulletPrefab.transform.localScale * 0.5f;
+        }
     }
     void SpawnBullet()
     {

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MyGameExample.unity
+- path: Assets/Scenes/Desafio Bullet.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
