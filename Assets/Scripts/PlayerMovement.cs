@@ -13,6 +13,7 @@ public class PlayerMovement: MonoBehaviour
     //Variables de Velocidad
     public float initialSpeedPlayer=1;
     float speedPlayer;
+    float cameraAxis;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,11 +28,18 @@ public class PlayerMovement: MonoBehaviour
     {
 
         Move();
+        RotatePlayer();
     }
     private void Move()
     {
         float ejeHorizontal = Input.GetAxis("Horizontal");
         float ejeVertical = Input.GetAxis("Vertical");
         transform.Translate(speedPlayer * Time.deltaTime * new Vector3(ejeHorizontal, 0, ejeVertical));
+    }
+    private void RotatePlayer()
+    {
+        cameraAxis += Input.GetAxis("Mouse X");
+        Quaternion angulo = Quaternion.Euler(0, cameraAxis, 0);
+        transform.localRotation = angulo;
     }
 }
