@@ -174,7 +174,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3775103134913305141}
   - component: {fileID: 3740632230355722939}
-  - component: {fileID: -7112941989696701394}
+  - component: {fileID: -6415081058939955134}
   m_Layer: 0
   m_Name: vampire
   m_TagString: Untagged
@@ -189,7 +189,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4550901581151256719}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.9092827, y: 1.447155, z: 6.058301}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -217,20 +217,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scale: {x: 1.1, y: 1.1, z: 1.1}
   initialSpeedPlayer: 3
---- !u!114 &-7112941989696701394
-MonoBehaviour:
+--- !u!65 &-6415081058939955134
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4550901581151256719}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9faa1fe3ab36ad46bea34f9294c3d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scale: {x: 1.1, y: 1.1, z: 1.1}
-  initialSpeedPlayer: 1
+  serializedVersion: 2
+  m_Size: {x: 0.25, y: 1, z: 0.25}
+  m_Center: {x: 0, y: 0.3, z: 0}
 --- !u!1 &6450267527463717233
 GameObject:
   m_ObjectHideFlags: 0

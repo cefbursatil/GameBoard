@@ -9,7 +9,7 @@ public class PlayerMovement: MonoBehaviour
     //Variables Posicion
     //public Vector3 initPosition = new Vector3(4, 2, 1);
     //Variables de Escala
-    public Vector3 scale = new Vector3(1.1f, 1.1f, 1.1f);
+    public Vector3 Initscale = new Vector3(1.1f, 1.1f, 1.1f);
     //Variables de Velocidad
     public float initialSpeedPlayer=1;
     float speedPlayer;
@@ -18,7 +18,7 @@ public class PlayerMovement: MonoBehaviour
     void Start()
     {
         //transform.position = initPosition;
-        transform.localScale = scale;
+        transform.localScale = Initscale;
         speedPlayer = initialSpeedPlayer;
 
     }
@@ -42,4 +42,22 @@ public class PlayerMovement: MonoBehaviour
         Quaternion angulo = Quaternion.Euler(0, cameraAxis, 0);
         transform.localRotation = angulo;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Portals"))
+        {
+            if (transform.localScale == Initscale)
+            {
+                transform.localScale = Initscale * 2;
+            }
+            else
+            {
+                transform.localScale = Initscale;
+            }
+        }
+        
+    }
+
+
 }
